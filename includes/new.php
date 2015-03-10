@@ -7,6 +7,9 @@ include(ROOT_PATH . 'includes/header.php');
 
 <?php 
 
-$section = "New Note";
 
 ?>
+
+<div class="main-content">
+  <h1 class="content-header">New Note</h1>
+</div>

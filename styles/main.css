@@ -1,12 +1,33 @@
+nav {
+  border-bottom: solid 3px lightgrey;
+  padding: 2px 20px;
+}
+
 nav a {
-  background-color: purple;
-  padding: 5px 25px;;
-  border-radius: 12px;
+  background-color: #e24baa;
+  padding: 6px 25px 2px;
+  line-height: 19px;
+  border-radius: 12px 12px 0 0;
   text-decoration: none;
   color: silver;
+  font-family: sans-serif;
+  border: solid 4px lightgrey;
+}
+
+nav a:hover {
+  color: #e6e6e6;
 }
 
 .current-tab {
-  background-color: green;
-  border-radius: 0px;
+  border-bottom: solid 4px #e24baa;
+}
+
+.main-content {
+  background-color: #e24baa;
+  height: 100%;
+}
+
+.content-header {
+  margin-top: 0;
+  padding-top: 30px;
 }
